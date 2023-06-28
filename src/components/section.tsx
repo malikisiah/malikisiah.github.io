@@ -32,7 +32,7 @@ export default function Section() {
           <p className='mt-4'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-            fugit consequuntur saepe laborum.
+            fuget consequuntur saepe laborum.
           </p>
         </div>
 
