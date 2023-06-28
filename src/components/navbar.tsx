@@ -26,7 +26,7 @@ export default function NavBar() {
             className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-md w-52'
           >
             <li>
-              <Link href='/academia'>
+              <Link href='/malik-isiah/academia'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 24 24'
@@ -41,7 +41,7 @@ export default function NavBar() {
               </Link>
             </li>
             <li>
-              <Link href='/'>
+              <Link href='/malik-isiah/'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 24 24'
@@ -58,7 +58,7 @@ export default function NavBar() {
               </Link>
             </li>
             <li>
-              <Link href='/athletics'>
+              <Link href='/malik-isiah/athletics'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 24 24'
@@ -77,13 +77,13 @@ export default function NavBar() {
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal hover:text-secondary px-0 space-x-11'>
           <li>
-            <Link href='/academia'>Academia</Link>
+            <Link href='/malik-isiah/academia'>Academia</Link>
           </li>
           <li>
-            <Link href='/'>Engineering</Link>
+            <Link href='/malik-isiah/'>Engineering</Link>
           </li>
           <li>
-            <Link href='/athletics'>Athletics</Link>
+            <Link href='/malik-isiah/athletics'>Athletics</Link>
           </li>
         </ul>
       </div>
