@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 export default function Header() {
   const scrollToNextSection = () => {
     window.scrollTo({
@@ -8,10 +9,22 @@ export default function Header() {
   };
   return (
     <div className='max-w-md'>
-      <h1 className='mb-5 text-5xl font-bold'>I&apos;m Malik</h1>
-      <p className='mb-5'>A Software Engineer from Chicago, IL</p>
+      <div className='avatar flex items-center justify-center pb-5'>
+        <div className='w-56 rounded-full border border-secondary'>
+          <Image
+            src='/20230315_191231.jpg'
+            alt=''
+            width={150}
+            height={150}
+            quality={100}
+            className='opacity-75'
+          />
+        </div>
+      </div>
+      <h1 className='mb-5 text-5xl font-bold '>I&apos;m Malik</h1>
+      <p className='mb-5 font-semibold'>A Software Engineer from Chicago</p>
       <button
-        className='btn btn-primary  normal-case'
+        className='btn btn-ghost link  rounded-md normal-case'
         onClick={scrollToNextSection}
       >
         View Page

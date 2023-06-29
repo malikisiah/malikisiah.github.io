@@ -12,7 +12,7 @@ export default function Project({
 }: project) {
   return (
     <a
-      className='block rounded-xl  p-8 shadow-xl transition hover:scale-105 hero border-2 border-black'
+      className='block rounded-xl  p-8 shadow-xl transition hover:scale-105 hero border-2 border-black hover:shadow-accent'
       href={link}
       style={{
         backgroundImage: `url(${background})`,

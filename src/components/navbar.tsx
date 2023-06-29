@@ -75,7 +75,7 @@ export default function NavBar() {
         {/* <a className='btn btn-ghost normal-case text-xl'></a> */}
       </div>
       <div className='navbar-center hidden lg:flex'>
-        <ul className='menu menu-horizontal hover:text-secondary px-0 space-x-11'>
+        <ul className='menu menu-horizontal hover:text-secondary px-0 space-x-14'>
           <li>
             <Link href='/academia'>Academia</Link>
           </li>
