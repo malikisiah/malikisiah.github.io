@@ -1,5 +1,5 @@
-import Class from "./classCard";
-export default function Classes() {
+import Class from "./ClassCard";
+export default function ClassSection() {
   const classes = [
     {
       picture: "/blog-17-11-02-accel-algorithms-1200x675.png",

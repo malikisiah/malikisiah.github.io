@@ -1,5 +1,5 @@
-import Project from "./projectCard";
-export default function Section() {
+import Project from "./ProjectCard";
+export default function ProjectSection() {
   const projects = [
     {
       link: "https://special-affair.vercel.app/",
@@ -19,6 +19,14 @@ export default function Section() {
       link: "https://sade-seven.vercel.app/",
       background: "/sade.png",
       heading: "Sade Tribute Page",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut possimus adipisci distinctio alias voluptatum blanditiis laudantium",
+    },
+
+    {
+      link: "https://carnival-blush.vercel.app/",
+      background: "/carnival.png",
+      heading: "Carnival Guide",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut possimus adipisci distinctio alias voluptatum blanditiis laudantium",
     },

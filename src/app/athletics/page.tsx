@@ -1,4 +1,4 @@
-import Section from "./section";
+import GymSection from "./GymSection";
 
 export default function Page() {
   return (
@@ -6,7 +6,7 @@ export default function Page() {
       <div className='flex items-center justify-center min-h-screen'>
         <h1> Athletics</h1>
       </div>
-      <Section />
+      <GymSection />
     </>
   );
 }

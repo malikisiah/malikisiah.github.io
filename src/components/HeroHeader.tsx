@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-export default function Header() {
+export default function HeroHeader() {
   const scrollToNextSection = () => {
     window.scrollTo({
       top: window.innerHeight,

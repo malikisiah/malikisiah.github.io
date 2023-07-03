@@ -1,5 +1,5 @@
-import Classes from "./classes";
 import ASU from "./ASU";
+import ClassSection from "./ClassSection";
 
 export default function Page() {
   const classes = [
@@ -28,7 +28,7 @@ export default function Page() {
   return (
     <>
       <ASU />
-      <Classes />
+      <ClassSection />
     </>
   );
 }

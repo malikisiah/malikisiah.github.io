@@ -4,7 +4,7 @@ type project = {
   heading: string;
   description: string;
 };
-export default function Project({
+export default function ProjectCard({
   link,
   background,
   heading,

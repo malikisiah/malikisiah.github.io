@@ -1,5 +1,5 @@
 import Image from "next/image";
-export default function Section() {
+export default function GymSection() {
   return (
     <section>
       <div className='max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8'>
