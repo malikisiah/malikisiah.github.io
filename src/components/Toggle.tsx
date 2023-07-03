@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Switch } from "@headlessui/react";
 
-export default function MyToggle() {
+export default function Toggle() {
   const [enabled, setEnabled] = useState(false);
   const [theme, setTheme] = useState("black");
 

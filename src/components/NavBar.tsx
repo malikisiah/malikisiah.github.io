@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MyToggle from "./switch";
+import Toggle from "./Toggle";
 export default function NavBar() {
   return (
     <div className='navbar bg-base-100 sticky top-0 z-40 border-b border-accent '>
@@ -88,7 +88,7 @@ export default function NavBar() {
         </ul>
       </div>
       <div className='navbar-end pr-2'>
-        <MyToggle />
+        <Toggle />
       </div>
     </div>
   );
