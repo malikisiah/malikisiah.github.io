@@ -3,7 +3,11 @@ import { useState, useEffect } from "react";
 import { Switch } from "@headlessui/react";
 
 export default function Toggle() {
-  const storedTheme = localStorage.getItem("theme") || "black";
+  let storedTheme = "black";
+  if (typeof window !== "undefined") {
+    // do localStorage stuff here
+    storedTheme = localStorage.getItem("theme") || "black";
+  }
   const [theme, setTheme] = useState(storedTheme);
 
   const toggle = () => {
