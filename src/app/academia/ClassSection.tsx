@@ -3,21 +3,21 @@ export default function ClassSection() {
   const classes = [
     {
       picture: "/blog-17-11-02-accel-algorithms-1200x675.png",
-      heading: "CSE 450 - Design & Analysis of Algorithms",
+      heading: "CSE 450 : Design & Analysis of Algorithms",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam fuget consequuntur saepe laborum.",
     },
 
     {
       picture: "/blog-17-11-02-accel-algorithms-1200x675.png",
-      heading: "CSE 355 - Introduction to Theoretical Computer Science",
+      heading: "CSE 471 : Intro Artificial Intelligence",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam fuget consequuntur saepe laborum.",
     },
 
     {
       picture: "/blog-17-11-02-accel-algorithms-1200x675.png",
-      heading: "CSE 335 - Mobile Application Development",
+      heading: "CSE 335 : Mobile Application Development",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam fuget consequuntur saepe laborum.",
     },

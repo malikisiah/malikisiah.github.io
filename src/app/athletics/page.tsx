@@ -1,11 +1,10 @@
+import GymHero from "./GymHero";
 import GymSection from "./GymSection";
 
 export default function Page() {
   return (
     <>
-      <div className='flex items-center justify-center min-h-screen'>
-        <h1> Athletics</h1>
-      </div>
+      <GymHero />
       <GymSection />
     </>
   );
