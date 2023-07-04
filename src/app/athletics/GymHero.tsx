@@ -13,10 +13,10 @@ export default function GymHero() {
       <div className='hero-content flex-col lg:flex-row-reverse'>
         <Image
           src='/YqWKU7g.jpg'
-          className='max-w-sm rounded-lg shadow-2xl w-auto h-auto'
+          className='max-w-sm rounded-lg shadow-2xl w-2/3 md:w-auto md:h-auto'
           alt=''
-          width={300}
-          height={300}
+          width={100}
+          height={100}
           quality={100}
         />
         <div>
