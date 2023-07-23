@@ -30,7 +30,10 @@ export default function ClassSection() {
           Notable Courses
         </h2>
 
-        <p className="mt-4"> Optional Electives that I found intriguing</p>
+        <p className="mt-4">
+          {" "}
+          Optional Electives that I found intriguing and thoroughly enjoyed
+        </p>
       </div>
       {classes.map((item, idx) => {
         return (

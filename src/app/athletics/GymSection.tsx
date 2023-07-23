@@ -7,9 +7,8 @@ export default function GymSection() {
           <h2 className="text-xl font-bold  sm:text-3xl">Gallery</h2>
 
           <p className="max-w-md mx-auto mt-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-            praesentium cumque iure dicta incidunt est ipsam, officia dolor
-            fugit natus?
+            A glimpse of life behind the scenes. It is important for me to keep
+            the body as sharp as the mind
           </p>
         </header>
 

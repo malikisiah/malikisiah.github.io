@@ -6,21 +6,21 @@ export default function ProjectSection() {
       background: "/specialAffair.png",
       heading: "A Special Affair",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut possimus adipisci distinctio alias voluptatum blanditiis laudantium",
+        "Full Stack application for a women's dance studio. Created with Next.js. Features include user authentication, webhooks that store user data, and secured integrated payments through stripe.",
     },
     {
       link: "https://mysongfinder.netlify.app/",
       background: "songFinder.png",
       heading: "Song Finder",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut possimus adipisci distinctio alias voluptatum blanditiis laudantium",
+        "Single page React app that leverages Spotify's web API to reccomend a song based on a selected genre",
     },
     {
       link: "https://sade-seven.vercel.app/",
       background: "/sade.png",
       heading: "Sade Tribute Page",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut possimus adipisci distinctio alias voluptatum blanditiis laudantium",
+        "Tribute page for one of my favorite artists, Sade. Mostly front-end static content with simple user authentication handled with Next-auth ",
     },
 
     {
@@ -28,7 +28,7 @@ export default function ProjectSection() {
       background: "/carnival.png",
       heading: "Carnival Guide",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut possimus adipisci distinctio alias voluptatum blanditiis laudantium",
+        "Capstone project currently in development with 4 other teammates. Ecommerce website with an online shop, database to store users information and a secure payment gateway",
     },
   ];
   return (
