@@ -20,7 +20,7 @@ export default function ProjectSection() {
       background: "/sade.png",
       heading: "Sade Tribute Page",
       description:
-        "Tribute page for one of my favorite artists, Sade. Mostly front-end static content with simple user authentication handled with Next-auth ",
+        "Tribute page for one of my favorite artists, Sade. Mostly front-end static content with simple user authentication handled with NextAuth ",
     },
 
     {
