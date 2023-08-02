@@ -9,6 +9,13 @@ export default function ProjectSection() {
         "Full Stack application for a women's dance studio. Created with Next.js. Features include user authentication, webhooks that store user data, and secured integrated payments through stripe.",
     },
     {
+      link: "https://cloud-vision.vercel.app/",
+      background: "/cloud-vision.jpg",
+      heading: "Cloud Vision",
+      description:
+        "Cloud-based Service Built Using AWS Lambda and Amazon Rekognition that uses AI to detect and identify images",
+    },
+    {
       link: "https://mysongfinder.netlify.app/",
       background: "songFinder.png",
       heading: "Song Finder",
